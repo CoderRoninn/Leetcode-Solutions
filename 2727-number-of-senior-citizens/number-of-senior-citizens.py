@@ -1,6 +1,5 @@
 class Solution:
     def countSeniors(self, details: List[str]) -> int:
-
         count = 0
 
         m = len(details) 
@@ -13,4 +12,5 @@ class Solution:
 
         #Time complexity of this algorithm takes O(n) where n is the length input string
         #Space complexity of this algorithm takes O(1) because we don't use any addtional data structure 
+        
         
