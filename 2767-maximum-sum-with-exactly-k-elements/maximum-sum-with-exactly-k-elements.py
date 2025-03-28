@@ -1,8 +1,5 @@
-import heapq
-
 class Solution:
     def maximizeSum(self, nums: List[int], k: int) -> int:
-
         max_heap = [-number for number in nums]  # This operation takes O(n) on averege because we create a new list of size n
 
         heapq.heapify(max_heap) # To convert heap takes O(n) on average
@@ -18,8 +15,4 @@ class Solution:
         return score    
 
         #Time complexity of this algorithm is O(k * logn) where k is the number of operations to execute and n is the number of in the heap(İnput list)
-        #Space complexity of this algorithm is O(n) where n is the length of input list
-
-
-
         
