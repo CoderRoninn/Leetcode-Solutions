@@ -18,7 +18,7 @@ class Solution:
 
         #Time complexity of this algorithm is O(n) because we iterate thought the loop once 
         #The loop runs from 2 to n  where n is input number
-        #Time space of this algoirthm is O(1) because we don't use any additional data structure. we used only constant amount variable 
+        #Time space complexity  of this algoirthm is O(1) because we don't use any additional data structure. we used only constant amount variable 
 
                 
         
